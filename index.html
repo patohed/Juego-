@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Adivina el número!</title>
+
+  </head>
+
+  <body>
+    <h1 class="titulo">Adivina el Número</h1>
+
+    <p class="parrafo">Tenés 10 oportunidades para adivinar el número entre 1 y 100, mucha suerte! </p>
+
+    <div class="form">
+      <label for="guessField" class="ingreso">Ingresa un número : </label>
+      <input class="campoIn" type="number" id="campoIn" min="1" max="100" required>
+      <input type="submit" value="Enviar" class="intentoIn">
+    </div>
+
+    <div class="resultadosIn">
+      <p class="intentos"></p>
+      <p class="resultado"></p>
+      <p class="masMenos"></p>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>

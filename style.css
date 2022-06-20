@@ -1,0 +1,46 @@
+html {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+
+body {
+    background-color: blanchedalmond;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+  .lastResult {
+    color: white;
+    padding: 3px;
+}
+
+.titulo {
+    width: auto;
+    color: blue;
+    font-size: 3rem;
+}
+.intentoIn { 
+    font-size: 1rem;
+
+}
+.intentoIn:hover {
+    cursor: pointer;
+    
+    
+}
+
+.campo:hover {
+    background-color: rgb(180, 164, 164);
+    transition: 1s;
+}
+
+.parrafo {
+    font-size: 2.3rem;
+}
+.ingreso {
+    font-size: 1.6rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
