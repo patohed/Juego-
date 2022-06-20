@@ -19,7 +19,7 @@ function checkGuess() {
   
     if (intentosIngresados === randomNumber) {
       resultado.textContent = '¡Felicidades! ¡Lo adivinaste! El número era → '+ randomNumber ;
-      resultado.style.backgroundColor = 'green';
+      resultado.style.color = 'green';
       masMenos.textContent = '';
       finDelJuego();
     } else if (contador === 10) {
@@ -27,7 +27,7 @@ function checkGuess() {
       finDelJuego();
     } else {
       resultado.textContent = '¡No, probá otro número!';
-      resultado.style.backgroundColor = 'red';
+      resultado.style.color = 'red';
       if(intentosIngresados < randomNumber) {
         masMenos.textContent = '¡El número es más alto!';
       } else if(intentosIngresados > randomNumber) {
